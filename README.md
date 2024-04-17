@@ -51,7 +51,11 @@ The spawn script has a similar input than the dtg_atg, in which the values are a
 
 The velocities program will print continuously the linear and angular velocities based on the error and the controller adjustments. These velocities are obtained with the product of those characteristics.
 
-This program just demonstrates the relation between these structures and how they affect the movement of the turtlesim, in future releases, the movement in y axis and a plotting graphic tool will be added.
+This script just demonstrates the relation between these structures and how they affect the movement of the turtlesim, in future releases, the movement in y axis and a plotting graphic tool will be added.
+
+**dtg_atg_withcontroller**
+
+This script aims not only to calculate the distance to go
 
 ### Conclusion
 
