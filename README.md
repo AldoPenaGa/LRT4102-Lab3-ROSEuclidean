@@ -55,7 +55,7 @@ This script just demonstrates the relation between these structures and how they
 
 **dtg_atg_withcontroller**
 
-This script aims not only to calculate the distance to go
+This script aims not only to calculate the distance to go and the angle to go but to move the robot to the desired pose introduced by the user, first does the same than the dtg_atg script and then, by using a P controller (iterating the proportional control constant for angular velocity to the error produced by the actual pose and the desired pose), rotates to achieve the position asked (this is done by setting the linear velocity to zero meanwhile it reaches a threshold for the rotation) and then moves forward to that point (comparing the actual pose to the desired pose and utilizing the proportional control constant for linear velocity). `Kp_linear` and `Kp_angular` can be adjusted to meet the expactations depending on the purpose, nevertheless, the default values are: 0.5 and 1.1 respectively. Finally, the current pose, the desired pose and the error are displayed continuously. Once it has achieved the desired position, it asks again for a new pose to reach.
 
 ### Conclusion
 
