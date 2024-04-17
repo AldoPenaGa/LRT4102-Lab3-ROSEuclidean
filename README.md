@@ -4,7 +4,7 @@
   <p align="justify">
   This is the third laboratory report for the course titled Robotic Systems Design (LRT4102). This report will settle a different approach using Euclidean techniques for moving the turtlesim.
 	  
-  <br>Universidad de las Américas Puebla (UDLAP) - Guided by proffessor Dr. César Martínez Torres. "https://www.linkedin.com/in/c%C3%A9sar-martinez-torres-617b5347/?originalSubdomain=mx>" 
+  <br>Universidad de las Américas Puebla (UDLAP) - Guided by professor Dr. César Martínez Torres. "https://www.linkedin.com/in/c%C3%A9sar-martinez-torres-617b5347/?originalSubdomain=mx>" 
   </p>
 </p>
 <be>
