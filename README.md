@@ -32,9 +32,20 @@ There were four tasks to be solved:
 
 ### Codes
 
-This time, the python scripts are all included in the ROS package called lab03.
+This time, the Python scripts are all included in the ROS package called lab03. It is important to highlight the max distance considered is 11 in x and 11 in y.
 
+**dtg_atg**-
+The code dtg_atg asks for a desired position within the turtlesim workspace, the values are saved in a vector which will serve to calculate the distance to go (dtg). This is calculated by using the Pythagorean theorem (d = sqrt((x2-x1)² + (y2-y1)²)) between the actual pose, obtained by reading the topic `/turtle1/pose` and the desired location introduced by the user. The angle to go (atg) is calculated using atan2(y2-y1, x2-1) doing the operation in radians and displaying the result in degrees. Both values are printed once the program has finished its execution.
 
+**spawn**
+The spawn script has a similar input than the dtg_atg, in which the values are asked and saved in a vector. Then the `rospy.ServiceProxy` called `/kill` is called in order to erase the current turtle. Once this has done, the service `spawn` is also called so it spawns the turtle in the desired x, y and theta.
+
+*Important to import the services `Spawn` and `Kill` from `turtle.srv` or the program won't work as intended.
+
+**velocities**
+The velocities program will print continuously the linear and angular velocities based on the error and the controller adjustments. These velocities are obtained with the product of those characteristics.
+
+This program just demonstrates the relation between these structures and how they affect the movement of the turtlesim, in future releases, the movement in y axis and a plotting graphic tool will be added.
 
 ### Conclusion
 
