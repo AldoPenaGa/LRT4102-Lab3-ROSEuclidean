@@ -1,5 +1,5 @@
 <p align="center">
-  <h2 align="center">Euclidean approach for turtlesim using Robot Operating System (ROS)</h2>
+  <h2 align="center">Understanging Robot Operating System (ROS) and euclidean distances in robotics</h2>
 
   <p align="justify">
   This is the third laboratory report for the course titled Robotic Systems Design (LRT4102). This report will settle a different approach using Euclidean techniques for moving the turtlesim.
@@ -19,6 +19,12 @@
 <div align= "justify">
 
 ### Introduction
+
+In this report, we explore Euclidean distances and deepen the Robot Operating System (ROS) environment. The goal of this practice is to clarify the foundations of ROS, in particular, keep practicing in basic structures like publishers and subscribers and exploring new ways of communication: services. Additionally, we'll go over how to compute Euclidean distances using algorithms, with an emphasis on 'Turtlesim'.
+
+Optimizing the development process for robotic applications is the main goal of ROS. Among other things, ROS does hardware management, control algorithm execution, and inter-component communication. 'Turtlesim' is one of its main tools, mostly because it helps in the learning path for many robotic navigation and manipulation applications. It is a simulation software application accessible as an extension that features a turtle-shaped robot. This robot can be controlled via Python programs as well as a control interface, which allows particular locations to be set to form desired shapes and design paths to areas of interest.
+
+A way of managing the difficulties of moving through its environment is to know where exactly is located and how it has changed its position over time. This is where solving using Euclidean distances shines. Euclidean distances are calculations of the distance between two points in Euclidean space. Practically, it is the length of the straight line that connects points "A" and "B" on a plane. In a two-dimensional Euclidean space, such as the X Y plane, the Euclidean distance(C) between two points: P(x1,y1) and P(x2,y2) can be calculated as c = √(a² + b²). 
 
 
 ### Problems
@@ -59,7 +65,6 @@ This script aims not only to calculate the distance to go and the angle to go bu
 
 ### Conclusion
 
-To summarize, this laboratory report has provided an extensive review of ROS, from the basics of developing a ROS package to some advanced implementation of a PID controller. The journey through the challenges and codes has not only strengthened our comprehension of ROS communication system, but has also demonstrated the integration of theory and practice. As we conclude, we consider the impact of ROS and PID control on the future of robotic system design, leaving us encouraged and equipped with the tools to innovate in the field of robotics.
 
 ### Contributors
 
