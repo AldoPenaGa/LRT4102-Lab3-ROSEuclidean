@@ -1,5 +1,5 @@
 <p align="center">
-  <h2 align="center">Understanging Robot Operating System (ROS) and euclidean distances in robotics</h2>
+  <h2 align="center">Understanding Robot Operating System (ROS) and euclidean distances in robotics</h2>
 
   <p align="justify">
   This is the third laboratory report for the course titled Robotic Systems Design (LRT4102). This report will settle a different approach using Euclidean techniques for moving the turtlesim.
